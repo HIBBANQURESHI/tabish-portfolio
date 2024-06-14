@@ -14,9 +14,9 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icons">
-              <a href="https://mallorymegan.artstation.com/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://x.com/Artistic_Megan"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://www.instagram.com/artistic_megan?igsh=YmE3OG43am9pYmxo&utm_source=qr"><img src={navIcon3} alt="Icon" /></a>
+            <a href="https://www.twitch.tv/directory/all/tags/vtubers?sort=VIEWER_COUNT_ASC"><img src={navIcon1} alt="" /></a>
+                <a href="https://x.com/home"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.instagram.com/_eliotmylan._/"><img src={navIcon3} alt="" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
