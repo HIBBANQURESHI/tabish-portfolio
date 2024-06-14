@@ -684,3 +684,29 @@ transition: 0.3s ease-in-out;
 .social-icons a:hover img {
 filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
+@media (max-width: 576px) {
+  nav.navbar a.navbar-brand {
+    width: 25%;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+  nav.navbar .navbar-text button {
+    font-size: 16px;
+    padding: 14px 24px;
+  }
+  .banner {
+    padding: 100px 0 40px 0;
+  }
+  .banner h1 {
+    font-size: 25px;
+  }
+  .banner p {
+    font-size: 12px;
+  }
+  .banner button {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
